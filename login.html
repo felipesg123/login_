@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Metadados da página, incluindo título e configuração de codificação de caracteres -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>login</title>
+    <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- Link para o arquivo CSS principal e para o Bootstrap via CDN -->
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- <br><br><br></br>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Espaço adicional para centralizar o formulário na página -->
+    <br><br><br><br>
 </head>
 <body>
     <div class="container col-4">
+        <!-- Formulário de login -->
         <form action="" class="form-control">
-        <H3>login</H3>
-        <input type="text" id="loginEmail" class="form-control"><br>
-        <input type="password" id="loginSenha" class=" form-control"><br>
-        <button onclick="acessar()" type="button" class="btn btn-success">acessar</button>
-    </form>
+            <h3>Login</h3>
+            <!-- Campo de entrada para o e-mail -->
+            <input type="text" id="loginEmail" class="form-control" placeholder="E-mail"><br>
+            <!-- Campo de entrada para a senha -->
+            <input type="password" id="loginSenha" class="form-control" placeholder="Senha"><br>
+            <!-- Botão para acessar o sistema -->
+            <button onclick="acessar()" type="button" class="btn btn-success">Acessar</button>
+        </form>
     </div>
 
-
+    <!-- Script que gerencia as ações da página -->
     <script src='controler.js'></script>
 </body>
 </html>
