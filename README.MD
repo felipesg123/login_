@@ -46,14 +46,7 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 ### Página de Cadastro
 ![Página de Cadastro](cadastro1.JPG)
 
-## Futuras Melhorias
-
-- Implementar validações mais robustas para os campos de login e cadastro.
-- Armazenar os dados de usuários utilizando local storage ou um banco de dados.
-- Melhorar a experiência do usuário com feedback visual após a inserção, edição ou exclusão de nomes.
-- Adicionar testes unitários para garantir a funcionalidade das principais funções.
-
 ## Autor
 
-[Seu Nome]
+[felipe da silva gonçalves']
 
