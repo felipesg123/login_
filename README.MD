@@ -44,7 +44,7 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 ![Página de Login](login1.JPG)
 
 ### Página de Cadastro
-![Página de Cadastro](cadastro1.jpg)
+![Página de Cadastro](cadastro1.JPG)
 
 ## Futuras Melhorias
 
