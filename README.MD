@@ -47,6 +47,5 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 ![Página de Cadastro](cadastro1.JPG)
 
 ## Autor
-
 [felipe da silva gonçalves']
 
