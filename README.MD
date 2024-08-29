@@ -12,9 +12,13 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 ## Funcionalidades
 
 - **Validação de Login**: A função `acessar()` valida se os campos de e-mail e senha foram preenchidos antes de redirecionar o usuário para a página de cadastro.
+
 - **Cadastro de Usuário**: O usuário pode inserir um nome no campo de texto e salvá-lo clicando no botão "SALVAR". O nome do usuário é então exibido na tabela abaixo do formulário.
+
 - **Exibição e Atualização da Lista de Usuários**: A função `criaLista()` exibe todos os usuários cadastrados em uma tabela, permitindo a exclusão ou edição de qualquer entrada.
-- **Edição e Exclusão de Usuários**: O usuário pode editar o nome cadastrado ou excluí-lo da tabela utilizando os botões correspondentes ao lado de cada nome.
+
+- **Edição e Exclusão de Usuários e email**: O usuário pode editar o nome cadastrado e o email ou excluí-lo da tabela utilizando os botões correspondentes ao lado de cada campo.
+
 
 ## Tecnologias Utilizadas
 
