@@ -7,18 +7,19 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 - **login.html**: Página de login que permite ao usuário inserir seu e-mail e senha para acessar a página de cadastro.
 - **index.html**: Página de cadastro que contém o formulário de inserção de nomes e a tabela para exibição dos usuários cadastrados.
 - **main.css**: Arquivo CSS para estilização customizada da página.
-- **controler.js**: Script JavaScript responsável por gerenciar as ações da página, como validação de login, salvar os usuários, atualizar a tabela, e permitir a edição ou exclusão de nomes da lista.
+- **controler.js**: Script JavaScript responsável por gerenciar as ações da página, como validação de login, salvar os usuários, atualizar a tabela, permitir a edição ou exclusão de nomes da lista, e validar o CPF.
 
 ## Funcionalidades
 
 - **Validação de Login**: A função `acessar()` valida se os campos de e-mail e senha foram preenchidos antes de redirecionar o usuário para a página de cadastro.
 
-- **Cadastro de Usuário**: O usuário pode inserir um nome no campo de texto e salvá-lo clicando no botão "SALVAR". O nome do usuário é então exibido na tabela abaixo do formulário.
+- **Cadastro de Usuário**: O usuário pode inserir nome, e-mail e CPF no formulário e salvá-los clicando no botão "Salvar". Os dados do usuário são então exibidos na tabela abaixo do formulário.
+
+- **Validação de CPF**: Implementada validação de CPF para garantir que o número informado é válido. Caso o CPF não seja válido, o usuário será informado por meio de uma mensagem de alerta.
 
 - **Exibição e Atualização da Lista de Usuários**: A função `criaLista()` exibe todos os usuários cadastrados em uma tabela, permitindo a exclusão ou edição de qualquer entrada.
 
-- **Edição e Exclusão de Usuários e email**: O usuário pode editar o nome cadastrado e o email ou excluí-lo da tabela utilizando os botões correspondentes ao lado de cada campo.
-
+- **Edição e Exclusão de Usuários**: O usuário pode editar os dados de um usuário cadastrado ou excluí-lo da tabela utilizando os botões correspondentes ao lado de cada entrada.
 
 ## Tecnologias Utilizadas
 
@@ -29,10 +30,17 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 
 ## Recursos do JavaScript Utilizados
 
+
+
 - **Manipulação da DOM**: Utilizado para capturar valores dos campos de formulário e atualizar dinamicamente o conteúdo da página (como a tabela de usuários).
-- **Funções**: Funções como `acessar()`, `salvarUser()`, `criaLista()`, `excluir()`, e `editar()` são responsáveis por toda a lógica de interação do usuário com a aplicação.
+
+- **Validação**: Validação de e-mail e CPF foi adicionada para garantir que os dados inseridos sejam válidos antes de serem salvos.
+
+- **Funções**: Funções como `acessar()`, `salvarUser()`, `criaLista()`, `excluirUser()`, `editarUser()` são responsáveis por toda a lógica de interação do usuário com a aplicação.
+
 - **Eventos de Clique**: Botões na página disparam funções JavaScript ao serem clicados, oferecendo interatividade.
-- **Array**: O array `dadosLista` é usado para armazenar dinamicamente os nomes dos usuários.
+
+- **Array**: O array `dadosLista` é usado para armazenar dinamicamente os dados dos usuários.
 - **Métodos de Array**: Métodos como `push()` e `splice()` são utilizados para manipular os elementos do array.
 
 ## Como Executar
@@ -45,11 +53,11 @@ Este é um projeto simples de uma página web para cadastro de usuários. A apli
 ## Imagens do Projeto
 
 ### Página de Login
-![Página de Login](login1.JPG)
+![Página de Login](login.JPG)
 
 ### Página de Cadastro
-![Página de Cadastro](cadastro1.JPG)
+![Página de Cadastro](cadastro.JPG)
 
 ## Autor
-[felipe da silva gonçalves']
 
+[felipe da silva gonçalves]
